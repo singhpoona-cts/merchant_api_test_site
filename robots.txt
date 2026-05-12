@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-github-username.github.io/your-repo-name/sitemap.xml
+Sitemap: https://singhpoona-cts.github.io/merchant_api_test_site/sitemap.xml

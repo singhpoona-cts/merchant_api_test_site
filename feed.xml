@@ -2,14 +2,14 @@
 <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
     <title>GMC Test Feed</title>
-    <link>https://your-github-username.github.io/your-repo-name/</link>
+    <link>https://singhpoona-cts.github.io/merchant_api_test_site/</link>
     <description>Sample product feed for Google Merchant Center testing.</description>
     
     <item>
       <g:id>TSHIRT-001</g:id>
       <g:title>Test T-Shirt</g:title>
       <g:description>A high-quality test t-shirt for Merchant Center testing.</g:description>
-      <g:link>https://your-github-username.github.io/your-repo-name/products.html</g:link>
+      <g:link>https://singhpoona-cts.github.io/merchant_api_test_site/products.html</g:link>
       <g:image_link>https://via.placeholder.com/150</g:image_link>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
@@ -22,7 +22,7 @@
       <g:id>MUG-001</g:id>
       <g:title>Test Mug</g:title>
       <g:description>A durable test mug for Merchant Center testing.</g:description>
-      <g:link>https://your-github-username.github.io/your-repo-name/products.html</g:link>
+      <g:link>https://singhpoona-cts.github.io/merchant_api_test_site/products.html</g:link>
       <g:image_link>https://via.placeholder.com/150</g:image_link>
       <g:condition>new</g:condition>
       <g:availability>in stock</g:availability>
