@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - GMC Test Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Structured Data for Product 1: Test T-Shirt -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Test T-Shirt",
+      "image": "https://via.placeholder.com/150",
+      "description": "A high-quality test t-shirt for Merchant Center testing.",
+      "sku": "TSHIRT-001",
+      "brand": {
+        "@type": "Brand",
+        "name": "TestBrand"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://your-github-username.github.io/your-repo-name/products.html",
+        "priceCurrency": "USD",
+        "price": "19.99",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    }
+    </script>
+    <!-- Structured Data for Product 2: Test Mug -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Test Mug",
+      "image": "https://via.placeholder.com/150",
+      "description": "A durable test mug for Merchant Center testing.",
+      "sku": "MUG-001",
+      "brand": {
+        "@type": "Brand",
+        "name": "TestBrand"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://your-github-username.github.io/your-repo-name/products.html",
+        "priceCurrency": "USD",
+        "price": "12.49",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="feed.xml">Product Feed (XML)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="product-card">
+            <h3>Test T-Shirt</h3>
+            <p>SKU: TSHIRT-001</p>
+            <p class="product-price">$19.99</p>
+            <p>Description: A high-quality test t-shirt for Merchant Center testing.</p>
+        </div>
+
+        <div class="product-card">
+            <h3>Test Mug</h3>
+            <p>SKU: MUG-001</p>
+            <p class="product-price">$12.49</p>
+            <p>Description: A durable test mug for Merchant Center testing.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 GMC Test Site</p>
+    </footer>
+</body>
+</html>
